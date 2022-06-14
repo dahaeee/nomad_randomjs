@@ -9,20 +9,20 @@
 </head>
 <body>
     
-    <h1>Random Number Game</h1>
-    <h3>Generate a Number between 0 and <span class="userchoice"></span></h3>
-    <form class="inputform">
-        <input class="userinput" type="number"/>
+    <form id="game">
+        <h1>Random Number Game</h1>
+        <h2 class="generate_number">
+        Generate a number between 0 and
+        <input type="number" id="generatenum"/>
+        </h2>
+        <h3 class="guess_number">
+            Guess the number:
+            <input type="number" id="inputnum"/>
+            <input type="submit" id="submit" value="play!"/>
+        </h3>
+        <h4 id="chosenum" class="hidden"></h4>
+        <h4 id="result" class="hidden"></h4>
     </form>
-    <div class="game">
-        Guess the number
-        <form class="gameform">
-        <input class="gameinput" type="number"/>
-        <button>play!</button>
-        </form>
-    </div>
-    <div class="chose"></div>
-    <h4 class="result"></h4>
     
     
 
