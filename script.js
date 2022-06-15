@@ -26,3 +26,4 @@ function guessNum(event) {
 }
 
 submit.addEventListener("click", guessNum);
+
