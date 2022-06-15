@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+input[type=number] {
+    border: 2px solid rgba(0, 0, 0, 0.255);
+    width: 80px;
+    height: 35px;
+}
+
+input[type=submit] {
+    border: 2px solid transparent;
+    background-color: rgb(252, 224, 229);
+    color: dimgray;
+    width: 80px;
+    height: 42px;
+}
+
+#chosenum {
+    font-size: 40px;
+}
+
+#result {
+    font-size: 40px;
+}

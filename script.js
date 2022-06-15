@@ -8,10 +8,10 @@ const HIDDEN_CLASSNAME = "hidden";
 function printResult(input, random) {
     if (input === random) {
         result.classList.remove(HIDDEN_CLASSNAME);
-        result.innerText = "You won!";
+        result.innerText = "You won!😆";
     } else {
         result.classList.remove(HIDDEN_CLASSNAME);
-        result.innerText = "You lost!";
+        result.innerText = "You lost!😞";
     }
 }
 
@@ -21,7 +21,7 @@ function guessNum(event) {
     const randomNumber = Math.floor(
       Math.random() * (Number(generateNum.value) + 1)
     );
-    choseNum.innerText = `You chose: ${inputNum.value}, the machine chose: ${randomNumber}`;
+    choseNum.innerText = `You chose: ${inputNum.value}, The machine chose: ${randomNumber}`;
     printResult(Number(inputNum.value), Number(randomNumber.value));
 }
 
